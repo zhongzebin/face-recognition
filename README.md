@@ -38,3 +38,5 @@ How to run this project?
     Open the code "test.cpp" and copy the file "MyFacePCAModel.xml" to your project's path. Change the string in the "putText" function to the name of your tested person.
     
     After doing these changes, run the code and let the tested person seat in front of the camera. Adjust the position to let the face in the center of the video, then the name of the tested person will appear on the top-left of the rectangle.
+    
+    ![image](https://github.com/zhongzebin/face-recognition/blob/master/pictures%20for%20readme/test.png)
