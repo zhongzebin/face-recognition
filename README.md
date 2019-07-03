@@ -20,3 +20,13 @@ How to run this project?
     After running this programm, you will get a series faces of the tested person. The name of these files are: "1.jpg", "2.jpg" … "100.jpg" …
     
     ![image](https://github.com/zhongzebin/face-recognition/blob/master/pictures%20for%20readme/faces.png)
+
+2. generate "at.txt"
+
+    First, download the file "face.rar" and decompress it. Create a new folder named "s41" in the folder "att_faces". Copy the files generated in the 1st step to this folder. Open the code "generate txt.cpp", change the path "C:\\face\\att_faces\\s" to the path of your files. Change the loop (i>=41) according to the number of your captured faces. If you have captured faces from more than one person, you can create folder "s42", "s43" and so on. 
+    
+    After doing these changes, run the code and you will get the file "at.txt".
+    
+3. train the model
+
+    Open the code "train.cpp" and change the path "C:\\face\\att_faces\\at.txt" to the path of your "at.txt" file. 
