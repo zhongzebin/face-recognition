@@ -30,3 +30,11 @@ How to run this project?
 3. train the model
 
     Open the code "train.cpp" and change the path "C:\\face\\att_faces\\at.txt" to the path of your "at.txt" file. 
+    
+    After that, run the code (a long time passed) and you will get the file "MyFacePCAModel.xml".
+
+4. test the model
+
+    Open the code "test.cpp" and copy the file "MyFacePCAModel.xml" to your project's path. Change the string in the "putText" function to the name of your tested person.
+    
+    After doing these changes, run the code and let the tested person seat in front of the camera. Adjust the position to let the face in the center of the video, then the name of the tested person will appear on the top-left of the rectangle.
