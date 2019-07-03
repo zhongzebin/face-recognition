@@ -19,4 +19,4 @@ How to run this project?
     
     After running this programm, you will get a series faces of the tested person. The name of these files are: "1.jpg", "2.jpg" … "100.jpg" …
     
-    [!image](https://github.com/zhongzebin/face-recognition/blob/master/pictures%20for%20readme/faces.png)
+    ![image](https://github.com/zhongzebin/face-recognition/blob/master/pictures%20for%20readme/faces.png)
